@@ -1,0 +1,22 @@
+body{
+    background-image:url("s.gif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-body{
+    margin-top: 50px;
+
+}
+.card{
+    border: 0;
+    background-color: inherit;
+}
+#m input{
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#linkbtn{
+    width:100px;
+    border-radius: 15px;
+}
