@@ -2,8 +2,30 @@
 <html>
   <head>
     <title>JavaScript for Kids</title>
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+      <link rel="stylesheet" type="text/css" href="style.css" />
+
   </head>
   <body>
-    <script src="word-guess.js"></script>
+      <!-- start navbar-->
+      <nav class="navbar navbar-dark bg-info">
+          <a class="navbar-brand" href="#"><span >Guess secret</span></a>
+
+    </nav>
+      <!--end navbar-->
+      <center>
+      <div class="card w-50" style="margin-top: 100px;" id="myDiv" >
+  <div class="card-body">
+    <h5 class="card-title" id="result">Player 1</h5>
+     <div id="m"> <input id="word" type="text" class="form-control" placeholder="Enter your secret"><br>
+    <a href="#" class="btn btn-info" style="width:100px;" id="linkbtn" onclick="startgame()">Play</a></div><br><br><div id="mainbad"></div>
+  
+  </div>
+</div>
+      </center>
+      <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="bootstrap.min.js"></script>
+          <script src="game.js"></script>
+
   </body>
 </html>
